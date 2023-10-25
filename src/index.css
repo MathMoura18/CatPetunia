@@ -1,0 +1,103 @@
+/* Header */
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+  align-items: center;
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  text-decoration: none;
+  color: black;
+}
+
+/* Main1 */
+.main1 {
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+
+.main1 h2 {
+  font-size: 80px;
+  color: #f2e3d5;
+}
+
+.main1-content {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+}
+
+.main1-content h2, button {font-weight: 600;font-family: "Poppins", sans-serif;}
+
+.main1-content button {
+  border: none;
+  padding: 8px;
+  background: #3858f0;
+  border-radius: 5%;
+}
+
+.main1-content button a {text-decoration: none;color: white;}
+.main1-content button:hover {background: #4564ff; color: rgb(100, 100, 100); transition: .2s;}
+
+.main1 p {
+  width: 400px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+#main1-img {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+  filter: brightness(80%);
+}
+
+/* Footer */
+footer {
+  background-color: #012e40;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+  width: 100%;
+  color: white;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+#href-authors {
+  color: gray;
+}
+
+#href-authors:hover {
+  color: rgb(206, 206, 206);
+  text-decoration: underline;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul a:hover {
+  color: rgb(160, 160, 160);
+  text-decoration: underline;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin-top: 10px;
+}
