@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+.fundo{
+    background-color: #ded6c7;
+    padding-top: 0px;
+}
+
+/* h1 */
+.h1-abt {
+    margin: 20px;
+}
+
+.h1-abt span {
+    color: blue;
+}
+
+/* end h1 */
+
+/* Parte de cima do about */
+.about-top {
+    display: flex;
+}
+
+.about-top p {
+    align-self: center;
+    margin: 20px;
+}
+
+.abt-top-img {
+    max-width: 40%;
+    padding: 10px;
+}
+
+/* end parte de cima about */
+
+
+/* h2 */
+.h2-abt {
+    margin: 20px;
+}
+
+.h2-abt span {
+    color: blue;
+}
+
+/* // */
+
+
+.middle-abt p {
+    margin: 20px;
+}
+
+.middle-img {
+    max-width: 40%;
+    align-items: center;
+    padding: 10px;
+}
+
+.h3-abt {
+    margin: 20px;
+}
+
+.h3-abt span {
+    color: blue;
+}
+
+.bottom-abt p {
+    margin: 20px;
+
+}
+
+.bottom-img{
+    max-width: 40%;
+    padding: 10px;
+}
