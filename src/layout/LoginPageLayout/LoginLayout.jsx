@@ -6,10 +6,14 @@ import { Register } from "../../components/Register";
 function LoginLayout() {
   const [currentForm, setCurrentForm] = useState("login");
 
+  const toogleForm = (formName) => {
+    setCurrentForm(formName);
+  }
+
   return (
-    <>
-      {currentForm === "login" ? <Login /> : <Register />}
-    </>
+    <div className="login-page">
+      {currentForm === "login" ? <Login onFormSwitch={toogleForm} /> : <Register onFormSwitch={toogleForm}/>}
+    </div>
   );
 }
 

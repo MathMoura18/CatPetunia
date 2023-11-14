@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-export const Login = () => {
+export const Login = (props) => {
   const [email, setEmail] = useState("");
   const [pass, setPass] = useState("");
 
@@ -11,9 +11,9 @@ export const Login = () => {
   }
 
   return (
-    <>
-    <form onSubmit={handleSubmit}>
-      <label htmlFor="email">email</label>
+    <div className="auth-form-container">
+    <form className="login-form" onSubmit={handleSubmit} method="POST">
+      <label htmlFor="email">E-mail</label>
       <input
         value={email}
         onChange={(e) => setEmail(e.target.value)}
@@ -22,7 +22,7 @@ export const Login = () => {
         id="email"
         name="email"
       />
-      <label htmlFor="password">password</label>
+      <label htmlFor="password">Senha</label>
       <input
         value={pass}
         onChange={(e) => setPass(e.target.value)}
@@ -33,7 +33,7 @@ export const Login = () => {
       />
       <button type="submit">Log In</button>
     </form>
-    <button>Do not have an account? Register</button>
-    </>
+    <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Ainda não tem uma conta? Registre aqui</button>
+    </div>
   );
 };
