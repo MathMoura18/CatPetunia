@@ -10,6 +10,15 @@ export const Login = (props) => {
     console.log(email)
   }
 
+  const register = () => {
+    Axios.post("http://localhost3001/login", {
+      email: email,
+      password: pass
+    }).then((response) => {
+      console.log(response);
+    });
+  };
+
   return (
     <div className="auth-form-container">
     <form className="login-form" onSubmit={handleSubmit} method="POST">
