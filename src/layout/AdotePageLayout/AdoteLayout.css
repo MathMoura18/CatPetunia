@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+.titulo-adote{
+    font-family: 'poppins',sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #403d3a;
+    background-color: #ded6c7;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+  }
+  .titulo-adote span{
+    color: #0038ff;
+  }
+  
+  .subtitulo-adote{
+    font-family: 'poppins',sans-serif;
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #403d3a;
+    background-color: #ded6c7;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+  }
+  
+  .conteudo-adote{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ded6c7;
+    list-style: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 120px;
+    margin-bottom: 0px;
+    gap: 60px 100px;
+    justify-content: center;
+  }
+  .conteudo-adote img{
+    position: absolute;
+    margin-left: -30px;
+  }
+  .conteudo-adote h2{
+    font-family: 'poppins',sans-serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #403d3a;
+    padding-bottom: 16px;
+    position: relative;
+  }
+  .conteudo-adote p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #68645f;
+  }
+  
+  .gatos-adote{
+    background-color: #ded6c7;
+  }
+  
+  .gatoslista-adote{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 120px;
+    margin-bottom: 0px;
+    gap: 40px 40px;
+  }
+  .gatoslista-adote img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .gatoslista-adote h3{
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #2e2c2a;
+    background-color: #cbc4b6;
+    text-align: center;
+    width: 300px;
+    padding-bottom: 16px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+  }
+  .gatoslista-adote p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    background-color: #cbc4b6;
+    color: #68645f;
+    margin-bottom: 0px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    border-radius: 0px 0px 4px 4px;
+  }
+  
