@@ -6,11 +6,13 @@ import ContatoPage from './pages/ContatoPage.jsx';
 import DoarPage from './pages/DoarPage.jsx';
 import OngPage from './pages/OngPage.jsx';
 import LoginPage from './pages/LoginPage.jsx';
+import AboutusPage from './pages/AboutusPage.jsx'
 import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+
 
 const router = createBrowserRouter([
   {
@@ -22,12 +24,12 @@ const router = createBrowserRouter([
     element: <AdotePage></AdotePage>,
   },
   {
-    path: "/ong",
-    element: <OngPage></OngPage>,
+    path: "/aboutus",
+    element: <AboutusPage></AboutusPage>,
   },
   {
-    path: "/aboutus",
-    element: <App></App>,
+    path: "/ong",
+    element: <OngPage></OngPage>,
   },
   {
     path: "/contact",

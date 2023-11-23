@@ -6,6 +6,7 @@ import SvgCarteira from "../../assets/icons/carteira.svg";
 import SvgMapa from "../../assets/icons/mapa.svg";
 import SvgDescrição from "../../assets/icons/descrição.svg";
 
+
 function AdoteLayout() {
   return (
     <>

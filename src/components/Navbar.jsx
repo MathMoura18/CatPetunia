@@ -38,6 +38,7 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
+
                 <a class="nav-link" href="#">
                   <Link to="/aboutus">Sobre nós</Link>
                 </a>
@@ -49,7 +50,7 @@ function Navbar() {
               </li>
               <li>
                 <button className="button-link">
-                  <a href="/contribua">Contribua</a>
+                  <Link to="/contribua"><a href="#">Contribua</a></Link>
                 </button>
               </li>
               <li>
