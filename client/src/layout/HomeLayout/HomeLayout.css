@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+
+.reveal{
+  position: relative;
+  opacity: 0.5;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  animation-name: move-out;
+  animation-duration: 2s;
+  opacity: 1;
+}
+
+/* Section 1 */
+.section1 {
+  width: 100%;
+  height: 900px;
+  position: relative;
+}
+
+.section1 h2 {
+  font-size: 80px;
+  color: #f2e3d5;
+}
+
+.section1-content {
+  z-index: 1;
+  position: absolute;
+  top: 25%;
+  left: 7%;
+}
+
+.section1-content h2 {
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.section1 p {
+  width: 400px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+
+#section1-img {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  object-fit: cover;
+  filter: brightness(80%);
+  animation-name: move-out;
+  animation-duration: 1s;
+}
+
+@keyframes opacity {
+  from {
+    opacity: .5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes move-out {
+  from {
+    padding: 4rem;
+  }
+  to {
+    padding: 0;
+  }
+}
+
+/* Section 2 */
+.section2 {
+  height: 900px;
+  width: 100%;
+  background-color: #024959;
+}
+
+.section2 h1 {
+  position: absolute;
+  padding-top: 60px;
+  padding-left: 60px;
+  font-weight: 700;
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  /* border: red 2px solid; */
+}
+
+.section2-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  /* border: red 2px solid; */
+  height: 900px;
+}
+
+.card {
+  background-color: #026773;
+  width: 320px;
+  height: 320px;
+  align-items: center;
+  padding: 12px;
+  justify-content: space-evenly;
+  transition: transform 1s;
+  transform: translateX(0) scale(1);
+}
+
+.card:hover {
+  transform: translateX(10px) scale(1.2);
+}
+
+.card p {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+}
+
+.icon-card span {
+  font-size: 54px;
+}
+
+.card a {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+}
+.card a:hover {
+  color: rgb(148, 148, 148);
+  transition: color 0.2s;
+}
+
+/* Section 3 */
+.section3 {
+  color: white;
+  width: auto;
+  height: 900px;
+  text-align: end;
+}
+
+.section3 h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  margin-bottom: 30px;
+  height: 130px;
+  width: 550px;
+  color: #f2e3d5;
+}
+.section3 p {
+  width: 550px;
+}
+.section3 span {
+  color: #3864ff;
+}
+
+.section3-container {
+  position: absolute;
+  z-index: 2;
+  margin-top: 230px;
+  margin-right: 150px;
+  font-size: large;
+  font-size: 20px;
+  right: 0%;
+}
+
+#img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  z-index: 0;
+  object-fit: cover;
+}
+
+/* Section 4 */
+.section4 {
+  height: 900px;
+  width: 100%;
+  background-color: #f2e3d5;
+}
+
+.section4 h1 {
+  padding: 100px;
+}
+.section4 span {
+  color: #3864ff;
+}
+
+.section4-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.section4-text {
+  font-family: "Merriweather", serif;
+  color: #54514d;
+  font-size: 38px;
+  width: 600px;
+}
+
+.img-section4 {
+  width: 600px;
+  height: 458px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.text-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+}
+.section4 i {
+  color: #3864ff;
+}
+
+.text-author {
+  font-size: 30px;
+  color: #68645f;
+  font-family: "Poppins", sans-serif;
+}
