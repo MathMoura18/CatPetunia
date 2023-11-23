@@ -6,7 +6,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" id="logo">
-          <h1><Link to="/">Casa do Vira Lata</Link></h1> 
+          <Link to="/"><h1><i class="fa-solid fa-shield-dog"></i>Casa do Vira Lata</h1></Link> 
         </a>
         <button
           class="navbar-toggler"

@@ -40,7 +40,7 @@ function ContatoLayout() {
             </div>
             <div className="bg-contato2">
                 <div className="local-contato">
-                    <a href="https://www.google.com.br/maps/place/Funda%C3%A7%C3%A3o+Escola+de+Com%C3%A9rcio+%C3%80lvares+Penteado/@-23.5572299,-46.6395327,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59a8b4d648f9:0x862df06cefe8bc3e!8m2!3d-23.5572348!4d-46.6369578!16s%2Fg%2F122xff09?entry=ttu"><img src={Mapa} alt="mapa"/></a>
+                    <a target = "blank" href="https://www.google.com.br/maps/place/Funda%C3%A7%C3%A3o+Escola+de+Com%C3%A9rcio+%C3%80lvares+Penteado/@-23.5572299,-46.6395327,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce59a8b4d648f9:0x862df06cefe8bc3e!8m2!3d-23.5572348!4d-46.6369578!16s%2Fg%2F122xff09?entry=ttu"><img src={Mapa} alt="mapa"/></a>
                     <h3>São Paulo</h3>
                     <div className="locais-contato">
                         <p>Rua ali perto, 35</p>
