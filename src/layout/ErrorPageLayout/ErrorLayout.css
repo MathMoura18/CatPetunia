@@ -1,0 +1,21 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    display: flex;
+    max-width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ded6c7;
+    font-size: 20px;
+    width: 20ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1s steps(20) infinite alternate-reverse;
+}
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
+}
