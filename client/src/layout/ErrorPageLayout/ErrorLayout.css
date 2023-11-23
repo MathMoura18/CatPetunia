@@ -1,5 +1,5 @@
 .container {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     text-align: center;
     display: flex;
     max-width: 100%;
@@ -7,4 +7,21 @@
     align-items: center;
     justify-content: center;
     background-color: #ded6c7;
+}
+
+
+.typing{
+    font-family: monospace;
+    font-size: 35px;
+    width: 32ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 2s steps(22) ;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0ch;
+    }
 }
