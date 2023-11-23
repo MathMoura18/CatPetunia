@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+.container-abt {
+    background-color: #ded6c7;
+    min-width: 100%;
+}
+
+/* início top */
+.container-about {
+    display: flex;
+    justify-content: end;
+    text-align: end;
+    background-color: #cbc4b6;
+    align-items: center;
+    border-radius: 20px;
+    width: 88%;
+    margin: 0 80px 0 80px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.abt-img {
+    max-width: 40%;
+    margin: 20px;
+}
+
+.top-h1 {
+    padding: 10px;
+    margin: 20px;
+    margin-top: 0;
+}
+
+.top-h1 span {
+    color: blue;
+}
+
+.top-about p {
+    margin: 20px;
+    cursor: default;
+}
+
+/* fim top */
+
+
+/* início middle */
+
+.middle-h2 {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px;
+    height: 75px;
+}
+
+.middle-h2 span {
+    color: blue;
+}
+
+.middle-img {
+    width: 60%;
+    max-height: 400px;
+    display: block;
+    margin: 20px;
+}
+
+
+.middle-about p {
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    cursor: default;
+}
+
+/* fim middle */
+
+/* início bottom */
+.bottom-h2 {
+    font-size: 2rem;
+    margin: 10px;
+    padding: 10px;
+    height: 75px;
+}
+
+.bottom-h2 span {
+    color: blue;
+}
+
+.bottom-about p {
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+    cursor: default;
+}
+
+.container-about span {
+    color: blue;
+}
+
+/* fim bottom */
