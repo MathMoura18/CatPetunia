@@ -33,6 +33,12 @@ function Navbar() {
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link">
+                  <Link to="/ong">Ong</Link>
+                </a>
+              </li>
+              <li class="nav-item">
+
                 <a class="nav-link" href="#">
                   <Link to="/aboutus">Sobre nós</Link>
                 </a>
@@ -44,12 +50,12 @@ function Navbar() {
               </li>
               <li>
                 <button className="button-link">
-                  <a href="#">Contribua</a>
+                  <Link to="/contribua"><a href="#">Contribua</a></Link>
                 </button>
               </li>
               <li>
                 <button className="button-link">
-                  <a href="#">Login</a>
+                  <Link to="/login"><a href="#">Login</a></Link>
                 </button>
               </li>
             </ul>

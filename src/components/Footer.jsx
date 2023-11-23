@@ -8,7 +8,7 @@ function Footer() {
         <h2>
           <Link to="/"><a href="#">Casa do Vira Lata</a></Link>
         </h2>
-        <p>&copy;{new Date().getFullYear()} Casa do Vira Lata</p>
+        <p>© 2023 - Todos os direitos reservados</p>
         <p>Desenvolvido por <a href="https://github.com/MathMoura18" id="href-authors" target="blank">Matheus Moura</a>, <a href="https://github.com/yfk7" id="href-authors" target="blank">Yago Kawauchi</a>, <a href="https://github.com/JoaoVitorLB" id="href-authors" target="blank">João Vitor Leão</a> e <a href="https://github.com/vitorlocateli" id="href-authors" target="blank">Vitor Locateli</a>.</p>
       </div>
       <div className="social-links">

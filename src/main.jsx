@@ -1,13 +1,18 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './pages/App.jsx'
-import AdotePage from './pages/AdotePage.jsx'
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './pages/App.jsx';
+import AdotePage from './pages/AdotePage.jsx';
+import ContatoPage from './pages/ContatoPage.jsx';
+import DoarPage from './pages/DoarPage.jsx';
+import OngPage from './pages/OngPage.jsx';
+import LoginPage from './pages/LoginPage.jsx';
+import AboutusPage from './pages/AboutusPage.jsx'
+import './index.css';
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import AboutusPage from './pages/AboutusPage.jsx'
+
 
 const router = createBrowserRouter([
   {
@@ -23,16 +28,20 @@ const router = createBrowserRouter([
     element: <AboutusPage></AboutusPage>,
   },
   {
+    path: "/ong",
+    element: <OngPage></OngPage>,
+  },
+  {
     path: "/contact",
-    element: <App></App>,
+    element: <ContatoPage></ContatoPage>,
   },
   {
     path: "/contribua",
-    element: <App></App>,
+    element: <DoarPage></DoarPage>,
   },
   {
     path: "/login",
-    element: <App></App>,
+    element: <LoginPage></LoginPage>,
   },
 ]);
 

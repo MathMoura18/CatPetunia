@@ -1,10 +1,11 @@
 import React from "react";
 import './AdoteLayout.css';
-import GatoAdote from "../../assets/cat1.jpg";
-import SvgFugas from "../../assets/corrida.svg";
-import SvgCarteira from "../../assets/carteira.svg";
-import SvgMapa from "../../assets/mapa.svg";
-import SvgDescrição from "../../assets/descrição.svg";
+import GatoAdote from "../../assets/img/animais/cat1.jpg";
+import SvgFugas from "../../assets/icons/corrida.svg";
+import SvgCarteira from "../../assets/icons/carteira.svg";
+import SvgMapa from "../../assets/icons/mapa.svg";
+import SvgDescrição from "../../assets/icons/descrição.svg";
+
 
 function AdoteLayout() {
   return (

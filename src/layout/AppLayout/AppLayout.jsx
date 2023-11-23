@@ -2,9 +2,9 @@ import React from "react";
 import "./AppLayout.css";
 import "./AppLayout.js";
 import Carousel from "../../components/Carousel";
-import cat2 from "../../assets/cat2.jpg";
-import dog1 from "../../assets/dog1.jpg";
-import dog3 from "../../assets/dog3.jpg";
+import cat2 from "../../assets/img/animais/cat2.jpg";
+import dog1 from "../../assets/img/animais/dog1.jpg";
+import dog3 from "../../assets/img/animais/dog3.jpg";
 import { Link } from "react-router-dom";
 
 function AppLayout() {
