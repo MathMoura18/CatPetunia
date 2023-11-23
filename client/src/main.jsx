@@ -7,6 +7,7 @@ import DoarPage from './routes/DoarPage.jsx';
 import LoginPage from './routes/LoginPage.jsx';
 import Home from './routes/Home.jsx';
 import ErrorPage from './routes/ErrorPage.jsx';
+import AboutUsPage from './routes/AboutusPage.jsx'
 import './index.css';
 import {
   createBrowserRouter,
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
       },
       {
         path: "aboutus",
-        element: <App />,
+        element: <AboutUsPage />,
       },
       {
         path: "contact",
