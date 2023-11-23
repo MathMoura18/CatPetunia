@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Axios from "axios";
 
 export const Register = (props) => {
   const [emailReg, setEmailReg] = useState("");
@@ -9,16 +8,6 @@ export const Register = (props) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(email);
-  };
-
-  const register = () => {
-    Axios.post("http://localhost3001/register", {
-      email: emailReg,
-      username: nameReg,
-      password: passReg,
-    }).then((response) => {
-      console.log(response);
-    });
   };
 
   return (
