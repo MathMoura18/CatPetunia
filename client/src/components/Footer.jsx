@@ -20,8 +20,8 @@ function Footer() {
             <a href="tel:+5511999999999">(11) 99999-9999</a>
           </li>
           <li>
-            <a href="mailto:contato@casadoviralata.com.br">
-              contato@casadoviralata.com.br
+            <a href="mailto:contato@catpetunia.com.br">
+              contato@catpetunia.com.br
             </a>
           </li>
           <li>
