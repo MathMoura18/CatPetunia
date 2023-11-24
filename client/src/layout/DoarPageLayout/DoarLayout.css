@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+.titulo-doar{
+    font-family: 'poppins',sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #403d3a;
+    background-color: #ded6c7;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+}
+.titulo-doar span{
+    color: #0038ff;
+}
+
+.bg-doar{
+    background-color: #ded6c7;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.card1-doar{
+    background-color: #cbc4b6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 180px;
+    margin-right: 180px;
+    border-radius: 4px;
+}
+.gato1-doar img{
+    width: 540px;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+.texto1-doar h2{
+    font-family: 'poppins',sans-serif;
+    color: #2e2c2a;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+.texto1-doar span{
+    color: #0038ff;
+}
+.texto1-doar p{
+    font-family: 'roboto', sans-serif;
+    color: #68645f;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    width: 400px;
+    height: 120px;
+    padding-right: 40px;
+}
+.texto1-doar button{
+    padding: 12px 24px;
+    background-color: #3858f0;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125;
+    margin-top: 12px;
+    margin-left: 80px;
+}
+
+.card2-doar{
+    background-color: #cbc4b6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 80px;
+    border-radius: 4px;
+}
+.texto2-doar h2{
+    font-family: 'poppins',sans-serif;
+    color: #2e2c2a;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+.texto2-doar span{
+    color: #0038ff;
+}
+.texto2-doar p{
+    font-family: 'roboto', sans-serif;
+    color: #68645f;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    width: 400px;
+    height: 120px;
+    padding-right: 40px;
+}
+.texto2-doar button{
+    padding: 12px 24px;
+    background-color: #3858f0;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125;
+    margin-top: 12px;
+    margin-left: 90px;
+}
+
+.card3-doar{
+    background-color: #cbc4b6;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 80px;
+    border-radius: 4px;
+}
+.texto3-doar h2{
+    font-family: 'poppins',sans-serif;
+    color: #2e2c2a;
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 70px;
+}
+.texto3-doar span{
+    color: #0038ff;
+}
+.texto3-doar p{
+    font-family: 'roboto', sans-serif;
+    color: #68645f;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    width: 400px;
+    height: 120px;
+    padding-right: 40px;
+}
+.texto3-doar button{
+    padding: 12px 24px;
+    background-color: #3858f0;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.125;
+    margin-left: 70px;
+}
