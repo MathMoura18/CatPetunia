@@ -25,7 +25,7 @@ function HomeLayout() {
         <img src={cat2} alt="Gato sorrindo" id="section1-img"/>
       </div>
       <div className="section2">
-        <h1>Casa do Vira Lata.</h1>
+        <h1>Cat Petúnia.</h1>
         <div class="section2-container">
           <div class="card">
             <div class="icon-card">
@@ -70,7 +70,7 @@ function HomeLayout() {
             </strong>
           </h2>
           <p>
-            Casa do Vira Lata é uma OSCIP sem fins lucrativos que ajuda centenas
+            Cat Petúnia é uma OSCIP sem fins lucrativos que ajuda centenas
             de gatos a encontrar um lar para viver.
           </p>
           <a href="">
