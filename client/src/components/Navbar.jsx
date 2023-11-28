@@ -6,7 +6,7 @@ function Navbar() {
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <a class="navbar-brand" id="logo">
-          <Link to="/"><h1><i class="fa-solid fa-shield-dog"></i>Cat Petúnia</h1></Link> 
+          <Link to="/Projeto-2sem"><h1><i class="fa-solid fa-shield-dog"></i>Cat Petúnia</h1></Link> 
         </a>
         <button
           class="navbar-toggler"
@@ -24,7 +24,7 @@ function Navbar() {
             <ul class="nav nav-underline">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="#">
-                  <Link to="/">Home</Link>
+                  <Link to="/Projeto-2sem">Home</Link>
                 </a>
               </li>
               <li class="nav-item">
