@@ -44,7 +44,7 @@ function Navbar() {
               </li>
               <li>
                 <button className="button-link">
-                  <a href="/contribua">Contribua</a>
+                  <Link to="/contribua"><a href="#">Contribua</a></Link>
                 </button>
               </li>
               <li>
