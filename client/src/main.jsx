@@ -16,12 +16,12 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/Projeto-2sem",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "/Projeto-2sem",
         element: <Home />,
       },
       {
