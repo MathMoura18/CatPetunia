@@ -16,7 +16,7 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/Projeto-2sem",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
