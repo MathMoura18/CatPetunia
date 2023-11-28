@@ -1,51 +1,76 @@
 const express = require("express");
-const mysql = require("mysql");
-
 const app = express();
+const mysql2 = require("mysql2");
+const cors = require("cors");
+const bcrypt = require("bcrypt");
+const saltRounds = 10;
+
+const db = mysql2.createPool({
+  host: "localhost",
+  user: "root",
+  password: "password",
+  database: "banco",
+});
 
 app.use(express.json());
 app.use(cors());
 
-const db = mysql.createConnection({
-  user: "root",
-  host: "localhost",
-  password: "",
-  database: "login",
-});
-
 app.post("/register", (req, res) => {
-  const username = req.body.username;
+  const email = req.body.email;
   const password = req.body.password;
 
-  db.query(
-    "INSERT INTO users (username, password) VALUES (?,?)",
-    [username, password],
-    (err, result) => {
-      console.log(err);
+  console.log(email);
+  console.log(password);
+
+  db.query("SELECT * FROM usuarios WHERE email = ?", [email], (err, result) => {
+    if (err) {
+      res.send(err);
     }
-  );
+    if (result.length == 0) {
+      bcrypt.hash(password, saltRounds, (err, hash) => {
+        db.query(
+          "INSERT INTO usuarios (email, password) VALUE (?,?)",
+          [email, hash],
+          (error, response) => {
+            if (err) {
+              res.send(err);
+            }
+
+            res.send({ msg: "Usuário cadastrado com sucesso" });
+          }
+        );
+      });
+    } else {
+      res.send({ msg: "Email já cadastrado" });
+    }
+  });
 });
 
 app.post("/login", (req, res) => {
-  const username = req.body.username;
+  const email = req.body.email;
   const password = req.body.password;
 
-  db.query(
-    "SELECT * FROM users WHERE username = ? AND password = ?",
-    [username, password],
-    (err, result) => {
-      if (err) {
-        res.send({err: err})
-      }
-      if (result) {
-        res.send(result);
-      } else {
-        res.send({ message: "Wrong username/password combination" });
-      }
+  db.query("SELECT * FROM usuarios WHERE email = ?", [email], (err, result) => {
+    if (err) {
+      res.send(err);
     }
-  );
+    if (result.length > 0) {
+      bcrypt.compare(password, result[0].password, (error, response) => {
+        if (error) {
+          res.send(error);
+        }
+        if (response) {
+          res.send({ msg: "Usuário logado" });
+        } else {
+          res.send({ msg: "Senha incorreta" });
+        }
+      });
+    } else {
+      res.send({ msg: "Usuário não registrado!" });
+    }
+  });
 });
 
 app.listen(3001, () => {
-  console.log("running server");
-});
+  console.log("rodando na porta 3001");
+}); 
