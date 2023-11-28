@@ -26,7 +26,7 @@ function Carousel() {
       <div class="carousel-inner">
         <div class="carousel-item active">
           <p>
-            Sempre amei gatos, e o que o pessoal Casa do Vira Lata fez foi
+            Sempre amei gatos, e o que o pessoal Cat Petúnia fez foi
             intensificar meu amor. Recomendo à todos que conheço.
           </p>
           <p class="text-author">
@@ -35,7 +35,7 @@ function Carousel() {
         </div>
         <div class="carousel-item">
           <p>
-            Sempre amei gatos, e o que o pessoal Casa do Vira Lata fez foi
+            Sempre amei gatos, e o que o pessoal Cat Petúnia fez foi
             intensificar meu amor. Recomendo à todos que conheço.
           </p>
           <p class="text-author">
@@ -44,7 +44,7 @@ function Carousel() {
         </div>
         <div class="carousel-item">
           <p>
-            Sempre amei gatos, e o que o pessoal Casa do Vira Lata fez foi
+            Sempre amei gatos, e o que o pessoal Cat Petúnia fez foi
             intensificar meu amor. Recomendo à todos que conheço.
           </p>
           <p class="text-author">
