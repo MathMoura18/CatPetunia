@@ -5,6 +5,6 @@ Projeto Interdisciplinar do 2°sem de 2023 de Bacharelado em Ciência da Computa
 
 Desenvolver um site em prol da causa de uma ONG à escolha do grupo, utilizando HTML, CSS , JavaScript e SQL.
 
-Integrantes oficiais: Matheus Moura (MathMoura18), Yago Kawauchi (yfk7), João Leão Bonifácio (JoaoVitorLB) e  Vitor Locateli (vitor locateli).
+Integrantes oficiais: <a href="https://github.com/MathMoura18">Matheus Moura</a>, <a href="https://github.com/yfk7">Yago Kawauchi</a>, <a href="https://github.com/JoaoVitorLB">João Leão Bonifácio</a> e <a href="https://github.com/vitorlocateli">Vitor Locateli</a>.
 
 <img src="./client/public/RMimg.png">
