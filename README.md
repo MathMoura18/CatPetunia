@@ -21,6 +21,6 @@ CatPetunia was built using ReactJS for a modern and responsive interface, and a 
 - SQL (MySQL)
 
 ### Official Members: 
-  <a href="https://github.com/MathMoura18" target="_blank">Matheus Moura</a>, <a href="https://github.com/yfk7" target="_blank">Yago Kawauchi</a>, <a href="https://github.com/JoaoVitorLB" target="_blank">João Leão Bonifácio</a> e <a href="https://github.com/vitorlocateli" target="_blank">Vitor Locateli</a>.
+  <a href="https://github.com/MathMoura18" target="_blank">Matheus Moura</a>, <a href="https://github.com/yfk7" target="_blank">Yago Kawauchi</a>, <a href="https://github.com/JoaoVitorLB" target="_blank">João Leão Bonifácio</a> and <a href="https://github.com/vitorlocateli" target="_blank">Vitor Locateli</a>.
 
 
