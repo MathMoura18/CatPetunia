@@ -1,4 +1,4 @@
-# Projeto - 2°sem
+# CatPetunia
 
 Prótotipo do projeto de 2°sem: Desenvolver um site para a causa de uma ONG
 Projeto Interdisciplinar do 2°sem de 2023 de Bacharelado em Ciência da Computação da FECAP (Fundação Escola de Comércio Álvares Penteado):
