@@ -7,7 +7,7 @@ This project was developed as part of a Computer Science course assignment. The 
 CatPetunia was built using ReactJS for a modern and responsive interface, and a SQL database to store and manage information about cats available for adoption, users, and the adoption process. The project focuses on usability and transparency to facilitate user navigation and streamline the adoption process.
 
 ### Link: 
-  <a href="https://mathmoura18.github.io/Projeto-2sem/" target="_blank">https://mathmoura18.github.io/Projeto-2sem/</a>
+  <a href="https://mathmoura18.github.io/CatPetunia/" target="_blank">https://mathmoura18.github.io/CatPetunia/</a>
 
 ### Key Features
 - **Cat listing for adoption**: Allows users to view detailed profiles for each cat, including photos, age, temperament, and any special needs.
