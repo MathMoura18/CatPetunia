@@ -16,32 +16,32 @@ import {
 
 const router = createBrowserRouter([
   {
-    path: "/CatPetunia",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "/",
+        path: "CatPetunia/",
         element: <Home />,
       },
       {
-        path: "adote",
+        path: "CatPetunia/adote",
         element: <AdotePage />,
       },
       {
-        path: "aboutus",
+        path: "CatPetunia/aboutus",
         element: <AboutUsPage />,
       },
       {
-        path: "contact",
+        path: "CatPetunia/contact",
         element: <ContatoPage />,
       },
       {
-        path: "contribua",
+        path: "CatPetunia/contribua",
         element: <DoarPage />,
       },
       {
-        path: "login",
+        path: "CatPetunia/login",
         element: <LoginPage />,
       }
     ]
