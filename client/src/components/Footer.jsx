@@ -6,7 +6,7 @@ function Footer() {
     <footer>
       <div className="footer-logo">
         <h2>
-          <Link to="/"><a href="#">Cat Petúnia</a></Link>
+          <Link to="CatPetunia/"><a href="#">Cat Petúnia</a></Link>
         </h2>
         <p>© 2023 - Todos os direitos reservados</p>
         <p>Desenvolvido por <a href="https://github.com/MathMoura18" id="href-authors" target="blank">Matheus Moura</a>, <a href="https://github.com/yfk7" id="href-authors" target="blank">Yago Kawauchi</a>, <a href="https://github.com/JoaoVitorLB" id="href-authors" target="blank">João Vitor Leão</a> e <a href="https://github.com/vitorlocateli" id="href-authors" target="blank">Vitor Locateli</a>.</p>
@@ -38,16 +38,16 @@ function Footer() {
           <strong>NAVEGUE</strong>
         </h2>
           <li>
-            <Link to="/"><a href="#logo">HOME</a></Link>
+            <Link to="CatPetunia/"><a href="#logo">HOME</a></Link>
           </li>
           <li>
-            <Link to="/adote"><a href="#logo">ADOTE</a></Link>
+            <Link to="CatPetunia/adote"><a href="#logo">ADOTE</a></Link>
           </li>
           <li>
-            <Link to="/aboutus">SOBRE NÓS</Link>
+            <Link to="CatPetunia/aboutus">SOBRE NÓS</Link>
           </li>
           <li>
-            <Link to="/contact">CONTATO</Link>
+            <Link to="CatPetunia/contact">CONTATO</Link>
           </li>
         </ul>
       </div>
