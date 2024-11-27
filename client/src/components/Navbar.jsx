@@ -7,7 +7,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" id="logo">
-            <Link to="/CatPetunia">
+            <Link to="/">
               <h1>
                 <i class="fa-solid fa-shield-dog"></i>Cat Petúnia
               </h1>
@@ -29,7 +29,7 @@ function Navbar() {
               <ul class="nav nav-underline">
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#">
-                    <Link to="/CatPetunia">Home</Link>
+                    <Link to="/">Home</Link>
                   </a>
                 </li>
                 <li class="nav-item">

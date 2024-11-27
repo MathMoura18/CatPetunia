@@ -17,9 +17,13 @@ import {
 const router = createBrowserRouter([
   {
     path: "/CatPetunia",
-    element: <Home />,
+    element: <App />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "/",
+        element: <Home />,
+      },
       {
         path: "adote",
         element: <AdotePage />,
