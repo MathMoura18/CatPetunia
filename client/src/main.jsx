@@ -17,13 +17,9 @@ import {
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Home />,
     errorElement: <ErrorPage />,
     children: [
-      {
-        path: "/",
-        element: <Home />,
-      },
       {
         path: "adote",
         element: <AdotePage />,
